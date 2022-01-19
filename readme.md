@@ -4,4 +4,4 @@ This project is a Survey page to dedicated to the user's experience with Freecod
 
 You can view this project live at the following link.
 
-https://dorohadfox.github.io/FCC-build-a-Tribute-page/
+https://dorohadfox.github.io/FCC-build-a-survey-page/
