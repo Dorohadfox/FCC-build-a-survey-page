@@ -1,0 +1,125 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+
+
+
+
+  <head>
+
+<link rel="stylesheet" href="./main.css">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+
+
+
+<h1 class="title" id="title">  Freecodecamp experience   </h1>
+
+<p class="description" id="description">  Tell us about yourself and your experience using the playform.   </p>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+
+    </script>
+    <div class="container">
+
+
+
+
+<div class="form">
+
+
+  <form id="survey-form" class="Survey" action="index.html" method="post">
+
+<label id="name-label"  for="name" > Name </label>
+ <input placeholder="Name" type="text" id="name"  required>
+<br>
+ <label id="email-label"  for="email"> Email </label>
+ <input placeholder="Email" type="email" id="email" required>
+<br>
+
+<label id="number-label" for="number"> Age </label>
+<input placeholder="age" type="number" id="number" required min="21" max="45" expectedtext="number">
+<br>
+<label for="job"> </label>
+<p>Whats your occupation?</p>
+<select id="dropdown" type="dropdown"> <option disabled selected value>Whats your occupation?</option>
+  <option value="Student">Full time Student</option>
+      <option value="Part-Time">Part time job</option>
+      <option value="Work-Study">Part time student with a job</option>
+      <option value="Full-time">Full time job</option>
+      <option value="Unemployed">Feeelance or Unemployed </option>
+      </select>
+<br>
+
+<div class="buttons">
+
+ <p>How likely are you to reccomend freecodecamp to a friend?</p>
+<ol class="list">
+  <li id="opt1" class="radio">
+    <label> 1
+      <input class"1-5" type="radio" name="radiob" value="1">
+    </label>
+  </li>
+
+  <li id="opt2" class="radio">
+    <label> 2
+      <input class"1-5" type="radio" name="radiob" value="2">
+    </label>
+  </li>
+
+  <li id="opt3" class="radio">
+    <label> 3
+      <input class"1-5" type="radio" name="radiob" value="3">
+    </label>
+  </li>
+
+  <li id="opt4" class="radio">
+    <label> 4
+      <input class"1-5" type="radio" name="radiob" value="4">
+    </label>
+  </li>
+
+  <li id="opt5" class="radio">
+    <label> 5
+      <input class"1-5" type="radio" name="radiob" value="5">
+    </label>
+  </li>
+</ol>
+
+<p> Which of these will you use coding for? (Check all that apply.) </p>
+<ul  class="list">
+  <li id="opt-1" class="checkbox"> Web development </li>
+  <input type="checkbox" name="opt-1" value="1">
+  <li id="opt-2" class="checkbox"> Gaming </li>
+  <input type="checkbox" name="opt-2" value="2">
+  <li id="opt-3" class="checkbox"> Application development </li>
+  <input type="checkbox" name="opt-3" value="3">
+  <li id="opt-4" class="checkbox"> Teaching </li>
+  <input type="checkbox" name="opt-4" value="4">
+  <li id="opt-5" class="checkbox"> Other </li>
+  <input type="checkbox" name="opt-5" value="5">
+</ul>
+</div>
+<p>Summarize your experience with freecodecamp.</p>
+<textarea placeholder="Experience summary" name="additionalcomments" rows="8" cols="60"></textarea>
+<input type="submit" id="submit" name="submit" value="submit">
+
+
+
+
+</form>
+
+</div>
+</div>
+
+
+
+
+  </body>
+</html>

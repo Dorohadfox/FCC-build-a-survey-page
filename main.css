@@ -1,0 +1,33 @@
+
+.description,
+.title {
+
+font-family: 'Merriweather', serif;
+  text-align: center;
+width 50%;
+}
+
+.form{
+font-size: 30px;
+font-family: 'Luxurious Roman', cursive;
+}
+
+
+.Survey {
+  align-content: center;
+}
+
+.container {
+  text-align: center;
+  background: linear-gradient(125deg,rgb(20,20,20), rgb(200,75,75));
+  padding: 100px;
+  border-top: #000;
+  border-bottom: #000;
+  border-width: 20px;
+  border-style: groove;
+  border-color: #aa6677
+
+            }
+.list{
+  list-style: none;
+}
